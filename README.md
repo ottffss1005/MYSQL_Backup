@@ -1,5 +1,24 @@
-# MYSQL_Backup
-Linux Ubuntu 환경에서 crontab을 이용한 MYSQL database 백업 자동화
+# MySQL_Backup
+Linux Ubuntu 환경에서 **crontab**을 이용한 **MySQL database 백업 자동화**
+## 👥 Team Members
+<table>
+  <tr>
+    <th>최소영</th>
+    <th>홍혜원</th>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="https://github.com/ottffss1005.png" width="120" /><br/>
+      <a href="https://github.com/ottffss1005">@ottffss1005</a>
+    </td>
+    <td align="center">
+      <img src="https://github.com/hyewon8245.png" width="120" /><br/>
+      <a href="https://github.com/hyewon8245">@hyewon8245</a>
+    </td>
+  </tr>
+</table>
+
+---
 ## 🔹 1. MySQL 설치 (Ubuntu)
 
 1. 패키지 목록 업데이트
@@ -23,7 +42,7 @@ Linux Ubuntu 환경에서 crontab을 이용한 MYSQL database 백업 자동화
     
     ```
     
-    - Ubuntu 기본 root 계정은 `auth_socket` 인증을 사용합니다.
+    - Ubuntu 기본 root 계정은 `auth_socket` 인증을 사용함
     - 비밀번호 인증으로 바꾸려면:
         
         ```sql
@@ -132,7 +151,7 @@ Linux Ubuntu 환경에서 crontab을 이용한 MYSQL database 백업 자동화
     
     ```
     
-    실행 후 `/home/ubuntu/database` 안에 `db_YYYYMMDD.tar.gz` 형식의 파일이 생성됩니다.
+    실행 후 `/home/ubuntu/database` 안에 `db_YYYYMMDD.tar.gz` 형식의 파일 생성
     
     <img width="889" height="203" alt="image" src="https://github.com/user-attachments/assets/47a9dfbb-d76b-4365-b638-f053e0b886f3" />
 
